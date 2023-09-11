@@ -4,9 +4,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.header, .body-one, .body-two, .body-three, .body-four {
+    display: flex;
+}
+
 .header, .body-one, .footer {
     background-color: #1F2937;
-    display: flex;
 }
 
 .logo {
@@ -19,11 +22,48 @@ body {
     color: #E5E7EB;
 }
 
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 .footer {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.body-two {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-width: 5px;
+}
+
+button, .body-four{
+    background-color: #3882F6;
     color: #E5E7EB;
 }
