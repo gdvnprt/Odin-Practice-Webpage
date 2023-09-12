@@ -32,6 +32,10 @@ body {
     justify-content: space-between;
 }
 
+button {
+    border-radius: 5px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
@@ -71,6 +75,7 @@ h1 {
     width: 200px;
     height: 200px;
     outline: 2px solid #3882F6;
+    border-radius: 25px;
 }
 
 .body-three {
@@ -94,9 +99,18 @@ h1 {
     justify-content: space-between;
     margin: 100px;
     padding: 25px 50px;
+    border-radius: 10px;
 }
 
 button, .body-four{
     background-color: #3882F6;
     color: #E5E7EB;
+    outline: 2px solid #E5E7EB;
+    border: 0;
+    justify-self: center;
+    height: 50px;
+    width: auto;
+}
+
+.body-four .body-split-one {
 }
