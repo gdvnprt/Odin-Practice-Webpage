@@ -116,19 +116,28 @@ h1 {
 .body-four {
     justify-content: space-between;
     margin: 100px;
-    padding: 25px 50px;
+    padding: 50px 50px;
     border-radius: 10px;
 }
 
 button, .body-four{
     background-color: #3882F6;
     color: #E5E7EB;
-    outline: 2px solid #E5E7EB;
+    
     border: 0;
     justify-self: center;
     height: 50px;
     width: auto;
 }
 
+.body-four button {
+    outline: 2px solid #E5E7EB;
+}
+
 .body-four .body-split-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 25px;
+    line-height: 0;
 }
