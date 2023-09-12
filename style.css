@@ -128,8 +128,7 @@ h1 {
 
 button, .body-four{
     background-color: #3882F6;
-    color: #E5E7EB;
-    
+    color: #F9FAF8;
     border: 0;
     justify-self: center;
     height: 50px;
@@ -137,7 +136,7 @@ button, .body-four{
 }
 
 .body-four button {
-    outline: 2px solid #E5E7EB;
+    outline: 2px solid #F9FAF8;
 }
 
 .body-four .body-split-one {
