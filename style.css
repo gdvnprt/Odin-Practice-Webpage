@@ -63,6 +63,28 @@ h1 {
     border-width: 5px;
 }
 
+.body-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-three p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.body-three h3 {
+    align-self: flex-end;
+}
+
+.body-four {
+    justify-content: space-between;
+    
+}
+
 button, .body-four{
     background-color: #3882F6;
     color: #E5E7EB;
