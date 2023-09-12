@@ -57,6 +57,7 @@ h1 {
 
 .body-one {
     justify-content: space-between;
+    align-items: center;
 }
 
 .body-one .body-split-one {
